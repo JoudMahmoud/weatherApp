@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  max-width: 470px;
+  background: linear-gradient(135deg, #00feba, #5b548a);
+  color: #fff;
+  border-radius: 20px;
+}
+.card input {
+  font-size: 14px;
+  outline: none;
+  border: none;
+  height: 60px;
+  caret-color: #888;
+}
+.card .search button {
+  background-color: #fff;
+  width: 60px;
+  height: 60px;
+  outline: none;
+  border: none;
+  color: #888;
+}
+.error{
+    font-size: 14px;
+    color: #eee;
+    display: none;
+}
+.weather{
+    display: none;
+}
+.weather h1 {
+  font-size: 70px;
+}
+.weather .city-name {
+  font-size: 80;
+}
+
+.weather section .col img {
+  width: 35px;
+}
